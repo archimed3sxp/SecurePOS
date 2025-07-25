@@ -1,0 +1,20 @@
+{
+  "name": "securepos-contracts",
+  "version": "1.0.0",
+  "description": "SecurePOS Smart Contracts for Lisk",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "deploy": "node dist/deploy.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "lisk-sdk": "^6.0.0",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0"
+  }
+}
